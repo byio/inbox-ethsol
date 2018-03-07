@@ -32,7 +32,7 @@ beforeEach(async () => {
 
 describe('Inbox', () => {
   it('deploys a contract', () => {
-    console.log(accounts);
-    console.log(inbox);
+    // test to see if contract has an address (deployed contracts have an address)
+    assert.ok(inbox.options.address);
   });
 });
