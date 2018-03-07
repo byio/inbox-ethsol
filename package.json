@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "node compile"
   },
   "author": "benyang",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "solc": "^0.4.20"
+  }
 }
